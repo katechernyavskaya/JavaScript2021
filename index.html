@@ -8,14 +8,24 @@
 </head>
 <body>
   <script>
-    const answer = Number(prompt("How old are you?"))
+    /*const answer = Number(prompt("How old are you?"))
 
-    if(answer>20){
-      alert("You are old :(")
+    if(answer>20) {
+      alert(`You are old :( ${answer}`) //папка репо и внутри папки
     }
-    else{
+    else {
       alert("You are young")
-    }
+    }*/
+
+    //массив 1-10, вывести чет
+    const array=[1, 2,3,4,5,6,7,8,9,10]
+    let result=[]
+     array.forEach(e => { 
+       if (e%2===0) {
+         result.push(e)
+        // alert(e)
+      }})
+      alert(result)
 
   </script>
 </body>
